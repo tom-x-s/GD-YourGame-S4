@@ -25,11 +25,12 @@ public class NoteObject : MonoBehaviour
                 gameObject.SetActive(false);
 
                 GameManager.instance.NoteHit();
+
             }
-            else //First note is always missed for some reason.
-            {
-                GameManager.instance.NoteMissed();
-            }
+            //else if (!canBePressed) //First note is always missed for some reason. Update: ALL notes pretty much always hit and miss.
+            //{
+            //    GameManager.instance.NoteMissed();
+            //} 
         }
     }
 
