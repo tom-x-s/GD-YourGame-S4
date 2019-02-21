@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public bool startPlaying;
 
     public BeatScroller theBS;
+    public GameTimer theGT;
 
     public static GameManager instance;
 
@@ -19,10 +20,12 @@ public class GameManager : MonoBehaviour
 
     public Text scoreText;
     public Text multiText;
+    public Text timeText;
 
     public int currentMultiplier;
     public int multiplierTracker;
     public int[] multiplierThresholds;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,12 +34,14 @@ public class GameManager : MonoBehaviour
 
         scoreText.text = "Score: 0";
         currentMultiplier = 1;
+
+        timeText.text = "Time left: 0:00";
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!startPlaying)
+        if (!startPlaying) //start het nummer en de chart
         {
             if (Input.GetKeyDown("e"))
             {
@@ -44,6 +49,8 @@ public class GameManager : MonoBehaviour
                 theBS.hasStarted = true;
 
                 theMusic.Play();
+
+                theGT.startTimer = true;
             }
         }
     }
@@ -77,6 +84,5 @@ public class GameManager : MonoBehaviour
         multiplierTracker = 0;
 
         multiText.text = "Multiplier: x" + currentMultiplier;
-
     }
 }
