@@ -35,7 +35,6 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: 0";
         currentMultiplier = 1;
 
-        timeText.text = "Time left: 0:00";
     }
 
     // Update is called once per frame
@@ -50,7 +49,6 @@ public class GameManager : MonoBehaviour
 
                 theMusic.Play();
 
-                theGT.startTimer = true;
             }
         }
     }

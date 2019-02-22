@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameTimer : MonoBehaviour
 {
@@ -39,12 +40,13 @@ public class GameTimer : MonoBehaviour
                     {
                         countdownText.text = "Time left : " + Minutes + ":" + Seconds.ToString("00");
                     }
-                    else
-                    {
-                        //  The countdown clock has finished
+                   else
+                   {
+                         //  The countdown clock has finished
                         countdownText.text = "Time left : 0:00";
                         Debug.Log("het nummer is voorbij");
-                    }
+                        SceneManager.LoadScene("Menu");
+                }
                 }
             }
     }
