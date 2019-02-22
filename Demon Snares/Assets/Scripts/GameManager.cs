@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField]
+    private Stat health;
 
     public AudioSource theMusic;
 
@@ -26,6 +28,10 @@ public class GameManager : MonoBehaviour
     public int multiplierTracker;
     public int[] multiplierThresholds;
 
+    private void Awake()
+    {
+        health.Initialize();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +62,7 @@ public class GameManager : MonoBehaviour
     public void NoteHit()
     {
         Debug.Log("Hit on time");
+        health.CurrentVal -= 10;
 
         if (currentMultiplier - 1 < multiplierThresholds.Length)
         {
