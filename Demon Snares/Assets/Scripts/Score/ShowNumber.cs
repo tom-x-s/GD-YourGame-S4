@@ -14,8 +14,12 @@ public class ShowNumber : MonoBehaviour
 
     public void ShowList()
     {
+        list.text = "";
+
         string temp = PlayerPrefs.GetString("score");
         List<string> tempList = temp.Split(new char[] { '*' }).ToList();
+
+        tempList = tempList.OrderBy(x => x.Length).ThenBy(number => number).Reverse().ToList();
 
         foreach (string line in tempList)
         {

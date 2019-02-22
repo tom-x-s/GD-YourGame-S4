@@ -6,6 +6,6 @@ public class DeleteNumber : MonoBehaviour
 {
     public void Delete()
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteKey("score");
     }
 }

@@ -40,8 +40,10 @@ public class CreateNumber : MonoBehaviour
                 temp += numbers[i].ToString();
         }
 
+        PlayerPrefs.DeleteKey("score");
         PlayerPrefs.SetString("score", temp);
         PlayerPrefs.Save();
+        temp = "";
     }
 
     private void Update()
