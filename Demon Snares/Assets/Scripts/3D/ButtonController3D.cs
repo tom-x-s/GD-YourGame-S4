@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ButtonController : MonoBehaviour
+public class ButtonController3D : MonoBehaviour
 {
 
     private SpriteRenderer theSR;
@@ -17,7 +17,7 @@ public class ButtonController : MonoBehaviour
         theSR = GetComponent<SpriteRenderer>();
     }
 
-    //Update is called once per frame
+    /* Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(keyToPress))
@@ -29,5 +29,5 @@ public class ButtonController : MonoBehaviour
         {
             theSR.sprite = defaultImage;
         }
-    }
+    } */
 }

@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: e188fa52d24662746aa83c6d51bb4d93
   - enabled: 1
-    path: Assets/Scenes/Buttons-tutorial.unity
+    path: Assets/Scenes/DennisTestScene.unity
     guid: 9164c9c2647f61d44abc7f0a69c41b8c
   - enabled: 1
     path: Assets/Scenes/Score1 (test).unity
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Score2 (test).unity
     guid: ab9f4eb5d75f00f45b1df864f08e5d0e
+  - enabled: 1
+    path: Assets/Scenes/TomTestScene.unity
+    guid: 819df86c3849ce44d8b65610c058cb0d
   m_configObjects: {}
