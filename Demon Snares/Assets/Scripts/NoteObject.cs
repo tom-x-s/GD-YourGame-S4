@@ -30,7 +30,8 @@ public class NoteObject : MonoBehaviour
             //else if (!canBePressed) //First note is always missed for some reason. Update: ALL notes pretty much always hit and miss.
             //{
             //    GameManager.instance.NoteMissed();
-            //} 
+            //}
+            
         }
     }
 
