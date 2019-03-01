@@ -889,6 +889,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Healthbar
       objectReference: {fileID: 0}
+    - target: {fileID: 5266358271019370355, guid: 973816062ea08994fb5754c53bcf1b96,
+        type: 3}
+      propertyPath: valueText
+      value: 
+      objectReference: {fileID: 1273902146}
     - target: {fileID: 5266358271019370254, guid: 973816062ea08994fb5754c53bcf1b96,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -952,7 +957,7 @@ PrefabInstance:
     - target: {fileID: 5266358271019370254, guid: 973816062ea08994fb5754c53bcf1b96,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -525
+      value: -472
       objectReference: {fileID: 0}
     - target: {fileID: 5266358271019370254, guid: 973816062ea08994fb5754c53bcf1b96,
         type: 3}
@@ -1002,18 +1007,13 @@ PrefabInstance:
     - target: {fileID: 5266358271019370254, guid: 973816062ea08994fb5754c53bcf1b96,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 5266358271019370254, guid: 973816062ea08994fb5754c53bcf1b96,
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5266358271019370355, guid: 973816062ea08994fb5754c53bcf1b96,
-        type: 3}
-      propertyPath: valueText
-      value: 
-      objectReference: {fileID: 1273902146}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 973816062ea08994fb5754c53bcf1b96, type: 3}
 --- !u!1 &445083664
@@ -2531,7 +2531,7 @@ PrefabInstance:
     - target: {fileID: 5956428718353250705, guid: f3c789741c722fa4086891432b0e6d89,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -932
+      value: -803.9
       objectReference: {fileID: 0}
     - target: {fileID: 5956428718353250705, guid: f3c789741c722fa4086891432b0e6d89,
         type: 3}
