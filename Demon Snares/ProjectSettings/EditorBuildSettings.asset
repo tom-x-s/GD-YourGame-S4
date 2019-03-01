@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Buttons-tutorial.unity
     guid: 9164c9c2647f61d44abc7f0a69c41b8c
+  - enabled: 1
+    path: Assets/Scenes/Score1 (test).unity
+    guid: f135ed355119d964ba9be36b291af7c7
+  - enabled: 1
+    path: Assets/Scenes/Score2 (test).unity
+    guid: ab9f4eb5d75f00f45b1df864f08e5d0e
   m_configObjects: {}
