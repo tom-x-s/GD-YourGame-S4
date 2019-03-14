@@ -20,10 +20,10 @@ public class BeatScroller : MonoBehaviour
     {
         if (!hasStarted)
         {
-       /*     if (Input.anyKeyDown)
+            if (Input.GetKeyDown("e"))
             {
                 hasStarted = true;
-            } */
+            } 
         }
         else
         {

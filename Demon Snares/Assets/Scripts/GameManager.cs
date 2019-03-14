@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour
 
     public bool startPlaying;
     
-   // public BeatScroller theBS;
-    public BeatScroller3D theBS3D;
+    public BeatScroller theBS;
+   // public BeatScroller3D theBS3D;
     public GameTimer theGT;
 
     public static GameManager instance;
@@ -52,8 +52,8 @@ public class GameManager : MonoBehaviour
             if (Input.GetKeyDown("e"))
             {
                 startPlaying = true;
-                //theBS.hasStarted = true;
-                theBS3D.hasStarted = true;
+                theBS.hasStarted = true;
+                //theBS3D.hasStarted = true;
 
                 theMusic.Play();
             }
