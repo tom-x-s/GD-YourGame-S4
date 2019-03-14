@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class NoteObject3D : MonoBehaviour
 {
-
     public bool canBePressed;
 
     public KeyCode keyToPress;
+
+    private GameObject hitbox;
+    private ParticleSystem Emitter;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,7 @@ public class NoteObject3D : MonoBehaviour
                 gameObject.SetActive(false);
 
                 GameManager.instance.NoteHit();
-
+                Emitter.Play();
             }
             //else if (!canBePressed) //First note is always missed for some reason. Update: ALL notes pretty much always hit and miss.
             //{
@@ -37,6 +39,8 @@ public class NoteObject3D : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        hitbox = other.gameObject;
+        Emitter = hitbox.GetComponentInChildren<ParticleSystem>();
 
         if (other.tag == "Activator")
         {
