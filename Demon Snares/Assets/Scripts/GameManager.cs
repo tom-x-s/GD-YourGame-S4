@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
     private Stat health;
+
+    private bool hpCheck;
 
     [SerializeField]
     private Animator playerAnim;
@@ -49,6 +52,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(health.CurrentVal == 0)
+        {
+            SceneManager.LoadScene("Result");
+        }
+
         if (!startPlaying) //start het nummer en de chart
         {
             if (Input.GetKeyDown(KeyCode.Joystick1Button9))
@@ -74,8 +82,7 @@ public class GameManager : MonoBehaviour
     public void NoteHit()
     {
         Debug.Log("Hit on time");
-        health.CurrentVal -= 10;
-
+        
         if (currentMultiplier - 1 < multiplierThresholds.Length)
         {
             multiplierTracker++;
@@ -96,6 +103,7 @@ public class GameManager : MonoBehaviour
     public void NoteMissed()
     {
         Debug.Log("Missed Note");
+        health.CurrentVal -= 10;
 
         currentMultiplier = 1;
         multiplierTracker = 0;
