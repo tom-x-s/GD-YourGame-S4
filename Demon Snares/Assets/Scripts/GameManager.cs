@@ -51,24 +51,24 @@ public class GameManager : MonoBehaviour
     {
         if (!startPlaying) //start het nummer en de chart
         {
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKeyDown(KeyCode.Joystick1Button9))
             {
                 startPlaying = true;
                 //theBS.hasStarted = true;
-                theBS3D.hasStarted = true;  //3d versie only
+                //theBS3D.hasStarted = true;  //3d versie only
 
                 theMusic.Play();
             }
         }
 
-        if (Input.GetKeyDown("a") || Input.GetKeyDown("s") || Input.GetKeyDown("d") || Input.GetKeyDown("f")) 
+       /* if (Input.GetKeyDown("a") || Input.GetKeyDown("s") || Input.GetKeyDown("d") || Input.GetKeyDown("f")) 
         {
             playerAnim.SetBool("HittingNote", true);
         }
         else
         {
             playerAnim.SetBool("HittingNote", false);
-        } //3d versie only
+        } */ //3d versie only
     }
 
     public void NoteHit()

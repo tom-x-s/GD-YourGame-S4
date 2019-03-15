@@ -20,7 +20,7 @@ public class BeatScroller : MonoBehaviour
     {
         if (!hasStarted)
         {
-            if (Input.GetKeyDown("e"))
+            if (Input.GetKeyDown(KeyCode.Joystick1Button9))
             {
                 hasStarted = true;
             } 

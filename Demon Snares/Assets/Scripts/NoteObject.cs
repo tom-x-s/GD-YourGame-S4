@@ -21,14 +21,14 @@ public class NoteObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    /*    if (Input.anyKey)
+       /* if (Input.anyKey)
         {
             System.Array values = System.Enum.GetValues(typeof(KeyCode));
             foreach (KeyCode code in values)
             {
                 if(Input.GetKeyDown(code)) { print(System.Enum.GetName(typeof(KeyCode), code)); }
             }
-        } */
+        } */ //check buttons
 
 
         if(Input.GetKeyDown(keyToPress))
