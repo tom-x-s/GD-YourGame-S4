@@ -20,7 +20,8 @@ public class ButtonController : MonoBehaviour
     //Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(keyToPress))
+
+        if (Input.GetKeyDown(keyToPress))
         {
             theSR.sprite = pressedImage;
         }
@@ -28,6 +29,14 @@ public class ButtonController : MonoBehaviour
         if(Input.GetKeyUp(keyToPress))
         {
             theSR.sprite = defaultImage;
+        }
+    }
+
+    void OnGUI()
+    {
+        if (Event.current.Equals(Event.KeyboardEvent(KeyCode.Space.ToString())))
+        {
+            Debug.Log("Space key is pressed.");
         }
     }
 }
