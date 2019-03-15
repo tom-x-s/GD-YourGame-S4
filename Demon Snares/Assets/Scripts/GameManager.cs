@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
             {
                 startPlaying = true;
                 //theBS.hasStarted = true;
-                theBS3D.hasStarted = true;
+                theBS3D.hasStarted = true;  //3d versie only
 
                 theMusic.Play();
             }
@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
         else
         {
             playerAnim.SetBool("HittingNote", false);
-        }
+        } //3d versie only
     }
 
     public void NoteHit()
