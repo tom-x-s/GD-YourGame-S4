@@ -11,18 +11,28 @@ public class NoteObject3D : MonoBehaviour
     private GameObject hitbox;
     private ParticleSystem Emitter;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(keyToPress))
+        // check which button is pushed (for calibrating guitar hero controller)
+        /*
+        if (Input.anyKey)
         {
-            if(canBePressed)
+            System.Array values = System.Enum.GetValues(typeof(KeyCode));
+            foreach (KeyCode code in values)
+            {
+                if (Input.GetKeyDown(code)) { print(System.Enum.GetName(typeof(KeyCode), code)); }
+            }
+        }
+        */
+
+        if (Input.GetKeyDown(keyToPress))
+        {
+            if (canBePressed)
             {
                 gameObject.SetActive(false);
 

@@ -20,7 +20,10 @@ public class ButtonController : MonoBehaviour
     //Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
         if (Input.GetKeyDown(keyToPress))
         {
             theSR.sprite = pressedImage;
