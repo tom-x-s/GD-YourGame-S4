@@ -11,12 +11,12 @@ public class NoteObject3D : MonoBehaviour
     private GameObject hitbox;
     private ParticleSystem Emitter;
 
-    public float spamTime;
-    public bool spamAvailable;
+    //public float spamTime;
+    //public bool spamAvailable;
 
     void Start()
     {
-        spamAvailable = true;
+        //spamAvailable = true;
     }
 
     void Update()
@@ -45,18 +45,18 @@ public class NoteObject3D : MonoBehaviour
                 Emitter.Play();
             }
 
-            if (!canBePressed && spamAvailable)
-            {
-                spamAvailable = false;
-                spamTime = Time.time;
-                GameManager.instance.HitNothing();
-            }
+            //if (!canBePressed && spamAvailable)
+            //{
+            //    spamAvailable = false;
+            //    spamTime = Time.time;
+            //    GameManager.instance.HitNothing();
+            //}
         }
 
-        if (spamTime <= Time.time - 0.5)
-        {
-            spamAvailable = true;
-        }
+        //if (spamTime <= Time.time - 0.5)
+        //{
+        //    spamAvailable = true;
+        //}
     }
 
     private void OnTriggerEnter(Collider other)
