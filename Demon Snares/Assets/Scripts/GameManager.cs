@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     public bool startPlaying;
     
-    //public BeatScroller theBS;
+    //public BeatScroller theBS;  / used in 2D
     public BeatScroller3D theBS3D;
     public GameTimer theGT;
 
@@ -59,24 +59,28 @@ public class GameManager : MonoBehaviour
 
         if (!startPlaying) //start het nummer en de chart
         {
-            if (Input.GetKeyDown(KeyCode.Joystick1Button9))
+            if (Input.GetKeyDown(KeyCode.Joystick1Button9) || Input.GetKeyDown(KeyCode.E))
             {
                 startPlaying = true;
-                //theBS.hasStarted = true;
-                //theBS3D.hasStarted = true;  //3d versie only
+                //theBS.hasStarted = true;  / used in 2D
+                theBS3D.hasStarted = true;
 
                 theMusic.Play();
             }
         }
 
-       /* if (Input.GetKeyDown("a") || Input.GetKeyDown("s") || Input.GetKeyDown("d") || Input.GetKeyDown("f")) 
+        if (playerAnim)
         {
-            playerAnim.SetBool("HittingNote", true);
+            if (Input.GetKeyDown("a") || Input.GetKeyDown("s") || Input.GetKeyDown("d") || Input.GetKeyDown("f"))
+            {
+                playerAnim.SetBool("HittingNote", true);
+            }
+            else
+            {
+                playerAnim.SetBool("HittingNote", false);
+            }
         }
-        else
-        {
-            playerAnim.SetBool("HittingNote", false);
-        } */ //3d versie only
+
     }
 
     public void NoteHit()
@@ -109,5 +113,19 @@ public class GameManager : MonoBehaviour
         multiplierTracker = 0;
 
         multiText.text = "Multiplier: x" + currentMultiplier;
+
+        scoreText.text = "Score: " + currentScore;
+    }
+
+    public void HitNothing()
+    {
+        Debug.Log("Spam");
+
+        currentMultiplier = 1;
+        multiplierTracker = 0;
+
+        multiText.text = "Multiplier: x" + currentMultiplier;
+
+        scoreText.text = "Score: " + currentScore;
     }
 }

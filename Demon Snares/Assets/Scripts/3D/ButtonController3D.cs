@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class ButtonController3D : MonoBehaviour
 {
+    public KeyCode keyToPress;
+
+    [SerializeField]
+    private Material defaultMaterial;
+
+    [SerializeField]
+    private Material pressedMaterial;
 
     private MeshRenderer theSR;
-    public Material defaultMaterial;
-    public Material pressedMaterial;
-
-    public KeyCode keyToPress;
 
     // Start is called before the first frame update
     void Start()
@@ -20,12 +23,12 @@ public class ButtonController3D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(keyToPress))
+        if (Input.GetKeyDown(keyToPress))
         {
             theSR.material = pressedMaterial;
         }
 
-        if(Input.GetKeyUp(keyToPress))
+        if (Input.GetKeyUp(keyToPress))
         {
             theSR.material = defaultMaterial;
         }

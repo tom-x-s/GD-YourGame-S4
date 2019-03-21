@@ -22,7 +22,7 @@ public class GameTimer : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Joystick1Button9))
+        if (Input.GetKeyDown(KeyCode.Joystick1Button9) || Input.GetKeyDown(KeyCode.E))
         {
             startTimer = true;
         }

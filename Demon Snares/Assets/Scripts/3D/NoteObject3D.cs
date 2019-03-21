@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class NoteObject3D : MonoBehaviour
 {
-    public bool canBePressed;
+    private bool canBePressed;
 
     public KeyCode keyToPress;
 
     private GameObject hitbox;
     private ParticleSystem Emitter;
 
+    public float spamTime;
+    public bool spamAvailable;
+
     void Start()
     {
-        
+        spamAvailable = true;
     }
 
     void Update()
@@ -36,14 +39,23 @@ public class NoteObject3D : MonoBehaviour
             {
                 gameObject.SetActive(false);
 
+                canBePressed = false;
+
                 GameManager.instance.NoteHit();
                 Emitter.Play();
             }
-            //else if (!canBePressed) //First note is always missed for some reason. Update: ALL notes pretty much always hit and miss.
-            //{
-            //    GameManager.instance.NoteMissed();
-            //}
-            
+
+            if (!canBePressed && spamAvailable)
+            {
+                spamAvailable = false;
+                spamTime = Time.time;
+                GameManager.instance.HitNothing();
+            }
+        }
+
+        if (spamTime <= Time.time - 0.5)
+        {
+            spamAvailable = true;
         }
     }
 
