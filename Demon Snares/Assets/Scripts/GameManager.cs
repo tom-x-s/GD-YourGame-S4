@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour
             {
                 startPlaying = true;
                 //theBS.hasStarted = true;
-                //theBS3D.hasStarted = true;  //3d versie only
+                theBS3D.hasStarted = true;  //3d versie only
 
                 theMusic.Play();
             }
