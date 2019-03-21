@@ -6348,7 +6348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360465961}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.42, y: 8.999999, z: 90.098335}
+  m_LocalPosition: {x: -2.42, y: 9, z: 90.098335}
   m_LocalScale: {x: 0.099999994, y: 0.099999994, z: 1}
   m_Children: []
   m_Father: {fileID: 1449820799}
@@ -13707,7 +13707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055758719}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.42, y: 32.4, z: 90.098335}
+  m_LocalPosition: {x: -2.42, y: 32.5, z: 90.098335}
   m_LocalScale: {x: 0.099999994, y: 0.099999994, z: 1}
   m_Children: []
   m_Father: {fileID: 1449820799}
@@ -21096,9 +21096,10 @@ MonoBehaviour:
     bar: {fileID: 316214135}
     maxVal: 100
     currentVal: 100
+  playerAnim: {fileID: 0}
   theMusic: {fileID: 2085597976}
   startPlaying: 0
-  theBS: {fileID: 245547511}
+  theBS3D: {fileID: 0}
   theGT: {fileID: 959538757}
   currentScore: 0
   scorePerNote: 100

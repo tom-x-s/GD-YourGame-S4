@@ -62,7 +62,6 @@ public class GameManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Joystick1Button9) || Input.GetKeyDown(KeyCode.E))
             {
                 startPlaying = true;
-                //theBS.hasStarted = true;  / used in 2D
                 theBS3D.hasStarted = true;
 
                 theMusic.Play();
