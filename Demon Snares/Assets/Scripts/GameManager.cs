@@ -74,7 +74,6 @@ public class GameManager : MonoBehaviour
     public void NoteHit()
     {
         Debug.Log("Hit on time");
-        health.CurrentVal -= 10;
 
         if (currentMultiplier - 1 < multiplierThresholds.Length)
         {
@@ -96,6 +95,7 @@ public class GameManager : MonoBehaviour
     public void NoteMissed()
     {
         Debug.Log("Missed Note");
+        health.CurrentVal -= 10;
 
         currentMultiplier = 1;
         multiplierTracker = 0;
