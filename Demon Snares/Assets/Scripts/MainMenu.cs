@@ -9,13 +9,17 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("DennisTestScene");
-
     }
 
     public void QuitGame()
     {
         Debug.Log("Quit");
         Application.Quit();
+    }
+
+    public void ToMainMenu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
 
