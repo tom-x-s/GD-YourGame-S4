@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
 
         if (!startPlaying) //start het nummer en de chart
         {
-            if (Input.GetKeyDown(KeyCode.Joystick1Button9) || Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Joystick1Button9) || Input.GetKeyDown("e"))
             {
                 startPlaying = true;
                 theBS3D.hasStarted = true;
