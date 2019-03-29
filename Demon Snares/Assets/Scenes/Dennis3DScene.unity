@@ -141,7 +141,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11341019}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 55}
+  m_LocalPosition: {x: 0, y: 0, z: 56.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -188,7 +188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &11341024
 MeshRenderer:
@@ -311,7 +310,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &59413452
 MeshRenderer:
@@ -405,7 +403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!135 &82120306
 SphereCollider:
@@ -528,7 +525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!135 &106109294
 SphereCollider:
@@ -680,7 +676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &120630208
 MeshRenderer:
@@ -756,7 +751,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174035446}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 56}
+  m_LocalPosition: {x: 0, y: 0, z: 57.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -803,7 +798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &174035451
 MeshRenderer:
@@ -955,9 +949,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d5d93d5e4aa52149b45c3c96e98c036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyToPress: 352
   defaultMaterial: {fileID: 2100000, guid: 4c98d47f8528afb40b931c01f63181a6, type: 2}
   pressedMaterial: {fileID: 2100000, guid: 50fbb93ee04b0124da1b778f2c83bcad, type: 2}
-  keyToPress: 352
 --- !u!1 &220756712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,7 +1043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &220756718
 MeshRenderer:
@@ -1222,7 +1215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!135 &249748396
 SphereCollider:
@@ -1327,7 +1319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256661874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 43}
+  m_LocalPosition: {x: 0, y: 0, z: 44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 832692119}
@@ -1374,7 +1366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &256661879
 MeshRenderer:
@@ -1542,7 +1533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334111920}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 42}
+  m_LocalPosition: {x: 0, y: 0, z: 43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446184915}
@@ -1603,7 +1594,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &334111926
 MeshRenderer:
@@ -1726,7 +1716,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &407161302
 MeshRenderer:
@@ -1802,7 +1791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416642926}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 58}
+  m_LocalPosition: {x: 0, y: 0, z: 59.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 832692119}
@@ -1849,7 +1838,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &416642931
 MeshRenderer:
@@ -2109,7 +2097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468301556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 48}
+  m_LocalPosition: {x: 0, y: 0, z: 49.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -2156,7 +2144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &468301561
 MeshRenderer:
@@ -2233,7 +2220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515328557}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 53.5}
+  m_LocalPosition: {x: 0, y: 0, z: 55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446184915}
@@ -2294,7 +2281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &515328563
 MeshRenderer:
@@ -2579,7 +2565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560843595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 59.5}
+  m_LocalPosition: {x: 0, y: 0, z: 62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -2626,7 +2612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &560843600
 MeshRenderer:
@@ -2702,7 +2687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579784556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 61}
+  m_LocalPosition: {x: 0, y: 0, z: 63.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 832692119}
@@ -2749,7 +2734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &579784561
 MeshRenderer:
@@ -2995,7 +2979,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &666330396
 MeshRenderer:
@@ -3147,9 +3130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d5d93d5e4aa52149b45c3c96e98c036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyToPress: 353
   defaultMaterial: {fileID: 2100000, guid: 7e3c7ede424e54b438e32dfd664b3388, type: 2}
   pressedMaterial: {fileID: 2100000, guid: 6cd94ee64c08787439d381504d83aaf3, type: 2}
-  keyToPress: 353
 --- !u!1 &720195208
 GameObject:
   m_ObjectHideFlags: 0
@@ -3179,7 +3162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720195208}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 50.5}
+  m_LocalPosition: {x: 0, y: 0, z: 52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -3226,7 +3209,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &720195213
 MeshRenderer:
@@ -3428,7 +3410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!23 &738047728
 MeshRenderer:
@@ -3948,7 +3929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &848456351
 MeshRenderer:
@@ -4024,7 +4004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865380149}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 36}
+  m_LocalPosition: {x: 0, y: 0, z: 37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 832692119}
@@ -4071,7 +4051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &865380154
 MeshRenderer:
@@ -4273,7 +4252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!23 &877894335
 MeshRenderer:
@@ -4349,7 +4327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897013054}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 49.5}
+  m_LocalPosition: {x: 0, y: 0, z: 51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1535514234}
@@ -4396,7 +4374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!23 &897013059
 MeshRenderer:
@@ -4476,9 +4453,9 @@ RectTransform:
   m_Father: {fileID: 1605572182}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -632.00006, y: -240.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 327.99994, y: 271}
   m_SizeDelta: {x: 560.4, y: 164.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959538755
@@ -4535,8 +4512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc099c1a5000744e927ba069c559324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Minutes: 1
-  Seconds: 0
+  Minutes: 0
+  Seconds: 35
   startTimer: 0
 --- !u!1 &965583668
 GameObject:
@@ -4694,7 +4671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017299073}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 59.5}
+  m_LocalPosition: {x: 0, y: 0, z: 62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 832692119}
@@ -4741,7 +4718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &1017299078
 MeshRenderer:
@@ -5008,7 +4984,7 @@ PrefabInstance:
     - target: {fileID: 4282057217362669291, guid: f3c789741c722fa4086891432b0e6d89,
         type: 3}
       propertyPath: m_Text
-      value: 'Boss health: '
+      value: 'Health: '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3c789741c722fa4086891432b0e6d89, type: 3}
@@ -5132,7 +5108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!54 &1073089654
 Rigidbody:
@@ -5179,7 +5154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076391013}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 41.5}
+  m_LocalPosition: {x: 0, y: 0, z: 42.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1535514234}
@@ -5226,7 +5201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!23 &1076391018
 MeshRenderer:
@@ -5302,7 +5276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088798967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 61.5}
+  m_LocalPosition: {x: 0, y: 0, z: 64.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -5349,7 +5323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1088798972
 MeshRenderer:
@@ -5425,7 +5398,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130257440}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 40}
+  m_LocalPosition: {x: 0, y: 0, z: 41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -5472,7 +5445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1130257445
 MeshRenderer:
@@ -5627,7 +5599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183789186}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 37}
+  m_LocalPosition: {x: 0, y: 0, z: 38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -5674,7 +5646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1183789191
 MeshRenderer:
@@ -5750,7 +5721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187639875}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 51}
+  m_LocalPosition: {x: 0, y: 0, z: 52.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 832692119}
@@ -5797,7 +5768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &1187639880
 MeshRenderer:
@@ -10618,7 +10588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1201972644
 MeshRenderer:
@@ -10741,7 +10710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1240733145
 MeshRenderer:
@@ -10864,7 +10832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1244173311
 MeshRenderer:
@@ -11129,7 +11096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324002106}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 35.5}
+  m_LocalPosition: {x: 0, y: 0, z: 36.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -11176,7 +11143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1324002111
 MeshRenderer:
@@ -11253,7 +11219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324147492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 38.5}
+  m_LocalPosition: {x: 0, y: 0, z: 39.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446184915}
@@ -11314,7 +11280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &1324147498
 MeshRenderer:
@@ -11528,7 +11493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1336278337
 MeshRenderer:
@@ -11680,9 +11644,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d5d93d5e4aa52149b45c3c96e98c036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyToPress: 351
   defaultMaterial: {fileID: 2100000, guid: 4731a1b2b5268a04195e82bb1886866a, type: 2}
   pressedMaterial: {fileID: 2100000, guid: 7d8a7dcc9b64da84881cb2b1d4cd6190, type: 2}
-  keyToPress: 351
 --- !u!1 &1349263211
 GameObject:
   m_ObjectHideFlags: 0
@@ -11774,7 +11738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &1349263217
 MeshRenderer:
@@ -16674,7 +16637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1436646955
 MeshRenderer:
@@ -16784,7 +16746,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471175001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 41}
+  m_LocalPosition: {x: 0, y: 0, z: 42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -16831,7 +16793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1471175006
 MeshRenderer:
@@ -16907,7 +16868,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477983062}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 45.5}
+  m_LocalPosition: {x: 0, y: 0, z: 46.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1535514234}
@@ -16954,7 +16915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!23 &1477983067
 MeshRenderer:
@@ -17030,7 +16990,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499962089}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 34.5}
+  m_LocalPosition: {x: 0, y: 0, z: 35.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1535514234}
@@ -17077,7 +17037,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!23 &1499962094
 MeshRenderer:
@@ -17229,9 +17188,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d5d93d5e4aa52149b45c3c96e98c036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyToPress: 350
   defaultMaterial: {fileID: 2100000, guid: 51039b8117ddaf24fb7dc6701f75fba0, type: 2}
   pressedMaterial: {fileID: 2100000, guid: 38fbf292b09b3d64289ef99efa2458cb, type: 2}
-  keyToPress: 350
 --- !u!1 &1516282514
 GameObject:
   m_ObjectHideFlags: 0
@@ -17277,7 +17236,7 @@ MonoBehaviour:
   timeText: {fileID: 0}
   currentMultiplier: 1
   multiplierTracker: 0
-  multiplierThresholds: 02000000020000000200000002000000
+  multiplierThresholds: 06000000060000000600000006000000
 --- !u!4 &1516282516
 Transform:
   m_ObjectHideFlags: 0
@@ -17500,7 +17459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562450622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 57}
+  m_LocalPosition: {x: 0, y: 0, z: 58.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446184915}
@@ -17561,7 +17520,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &1562450628
 MeshRenderer:
@@ -17638,7 +17596,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570456436}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 50}
+  m_LocalPosition: {x: 0, y: 0, z: 51.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446184915}
@@ -17699,7 +17657,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &1570456442
 MeshRenderer:
@@ -17809,7 +17766,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1588372283}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: -22.093998, z: 62.672592}
+  m_LocalPosition: {x: 0, y: -22.093998, z: 63.672592}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18120,7 +18077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630336422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 59}
+  m_LocalPosition: {x: 0, y: 0, z: 61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 832692119}
@@ -18167,7 +18124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &1630336427
 MeshRenderer:
@@ -18400,7 +18356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667507212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 59}
+  m_LocalPosition: {x: 0, y: 0, z: 61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -18447,7 +18403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1667507217
 MeshRenderer:
@@ -18523,7 +18478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672428257}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 42.5}
+  m_LocalPosition: {x: 0, y: 0, z: 43.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -18570,7 +18525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1672428262
 MeshRenderer:
@@ -18646,7 +18600,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688388128}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 61.5}
+  m_LocalPosition: {x: 0, y: 0, z: 64.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 832692119}
@@ -18693,7 +18647,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &1688388133
 MeshRenderer:
@@ -28212,7 +28165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &1734301944
 MeshRenderer:
@@ -28288,7 +28240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741160154}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 34}
+  m_LocalPosition: {x: 0, y: 0, z: 34.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -28335,7 +28287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1741160159
 MeshRenderer:
@@ -28411,7 +28362,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772611320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 61}
+  m_LocalPosition: {x: 0, y: 0, z: 63.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -28458,7 +28409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1772611325
 MeshRenderer:
@@ -28534,7 +28484,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777971272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 57.5}
+  m_LocalPosition: {x: 0, y: 0, z: 59.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -28581,7 +28531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1777971277
 MeshRenderer:
@@ -28704,7 +28653,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1782437528
 MeshRenderer:
@@ -28783,9 +28731,9 @@ RectTransform:
   m_Father: {fileID: 1605572182}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -632, y: -328}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 328, y: 184}
   m_SizeDelta: {x: 560.4, y: 164.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1791990394
@@ -28859,7 +28807,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795165715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 49}
+  m_LocalPosition: {x: 0, y: 0, z: 50.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -28906,7 +28854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1795165720
 MeshRenderer:
@@ -29048,7 +28995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864205258}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 44}
+  m_LocalPosition: {x: 0, y: 0, z: 45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -29095,7 +29042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1864205263
 MeshRenderer:
@@ -29426,7 +29372,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913897370}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 52}
+  m_LocalPosition: {x: 0, y: 0, z: 53.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -29473,7 +29419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1913897375
 MeshRenderer:
@@ -29754,7 +29699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &1990686299
 MeshRenderer:
@@ -29909,7 +29853,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017224342}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 33}
+  m_LocalPosition: {x: 0, y: 0, z: 33.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1554410870}
@@ -29956,7 +29900,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &2017224347
 MeshRenderer:
@@ -30085,7 +30028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!23 &2026197410
 MeshRenderer:
@@ -30240,7 +30182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041269244}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 56.5}
+  m_LocalPosition: {x: 0, y: 0, z: 58.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1535514234}
@@ -30287,7 +30229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 353
 --- !u!23 &2041269249
 MeshRenderer:
@@ -30410,7 +30351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &2045866021
 MeshRenderer:
@@ -30489,9 +30429,9 @@ RectTransform:
   m_Father: {fileID: 1605572182}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -632, y: -414}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 328, y: 98}
   m_SizeDelta: {x: 560.4, y: 164.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2046179001
@@ -30612,7 +30552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 352
 --- !u!23 &2046794917
 MeshRenderer:
@@ -30689,7 +30628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081139409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 35}
+  m_LocalPosition: {x: 0, y: 0, z: 36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446184915}
@@ -30750,7 +30689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &2081139415
 MeshRenderer:
@@ -30873,7 +30811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 351
 --- !u!23 &2089430964
 MeshRenderer:
@@ -31011,7 +30948,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939492d37875a7841992d5512fe5844f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBePressed: 0
   keyToPress: 350
 --- !u!23 &2116632751
 MeshRenderer:

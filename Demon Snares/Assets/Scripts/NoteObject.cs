@@ -10,7 +10,7 @@ public class NoteObject : MonoBehaviour
     public KeyCode keyToPress;
 
     private GameObject HitBox;
-    private ParticleSystem boem;
+    //private ParticleSystem boem;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +36,7 @@ public class NoteObject : MonoBehaviour
 
             if (canBePressed)
             {
-                boem.Play();
+                //boem.Play();
 
                 gameObject.SetActive(false);
 
@@ -56,7 +56,7 @@ public class NoteObject : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         HitBox = other.gameObject;
-        boem = HitBox.GetComponentInChildren<ParticleSystem>();
+        //boem = HitBox.GetComponentInChildren<ParticleSystem>();
         if(other.tag == "Activator")
         {
             canBePressed = true;

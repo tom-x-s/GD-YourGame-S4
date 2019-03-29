@@ -45,7 +45,7 @@ public class GameTimer : MonoBehaviour
                          //  The countdown clock has finished
                         countdownText.text = "Time left : 0:00";
                         Debug.Log("het nummer is voorbij");
-                        SceneManager.LoadScene("Menu");
+                        SceneManager.LoadScene("Result");
                 }
                 }
             }
