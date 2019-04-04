@@ -106,7 +106,7 @@ public class GameManager : MonoBehaviour
     public void NoteMissed()
     {
         Debug.Log("Missed Note");
-        //health.CurrentVal -= 10;
+        health.CurrentVal -= 10;
 
         currentMultiplier = 1;
         multiplierTracker = 0;
