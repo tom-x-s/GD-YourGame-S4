@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
     private Stat health;
 
-    private bool hpCheck;
-
     [SerializeField]
     private Animator playerAnim;
+
+    [SerializeField]
+    private GameTimer time;
 
     public AudioSource theMusic;
 
     public bool startPlaying;
     
-    //public BeatScroller theBS;  / used in 2D
     public BeatScroller3D theBS3D;
     public GameTimer theGT;
 
@@ -26,6 +27,8 @@ public class GameManager : MonoBehaviour
 
     public int currentScore;
     public int scorePerNote = 100;
+    private List<int> highScores = new List<int>();
+    private string temp;
 
     public Text scoreText;
     public Text multiText;
@@ -47,14 +50,25 @@ public class GameManager : MonoBehaviour
 
         scoreText.text = "Score: 0";
         currentMultiplier = 1;
+
+        string previousScores = PlayerPrefs.GetString("score");
+        highScores = previousScores.Split(new char[] { '*' }).Select(int.Parse).ToList();
+        temp = "";
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(health.CurrentVal == 0)
+        if (health.CurrentVal == 0)
         {
-            SceneManager.LoadScene("Result");
+            SaveScore();
+            NextScene();
+        }
+
+        if (time.timeIsUp == true)
+        {
+            SaveScore();
+            NextScene();
         }
 
         if (!startPlaying) //start het nummer en de chart
@@ -79,7 +93,6 @@ public class GameManager : MonoBehaviour
                 playerAnim.SetBool("HittingNote", false);
             }
         }
-
     }
 
     public void NoteHit()
@@ -126,5 +139,31 @@ public class GameManager : MonoBehaviour
         multiText.text = "Multiplier: x" + currentMultiplier;
 
         scoreText.text = "Score: " + currentScore;
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene("Result");
+    }
+
+    public void SaveScore()
+    {
+        highScores.Add(currentScore);
+
+        for (int i = 0; i < highScores.Count; i++)
+        {
+            if (i != highScores.Count - 1)
+            {
+                temp += highScores[i].ToString() + "*";
+            }
+            else
+            {
+                temp += highScores[i].ToString();
+            }
+        }
+
+        PlayerPrefs.SetString("score", temp);
+        PlayerPrefs.Save();
+        temp = "";
     }
 }
