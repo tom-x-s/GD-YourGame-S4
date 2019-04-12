@@ -9,10 +9,13 @@ public class GameTimer : MonoBehaviour
     public int Minutes = 0;
     public int Seconds = 0;
 
+    public bool startTimer = false;
+
+    public bool timeIsUp = false;
+
     private Text countdownText;
     private float m_leftTime;
 
-    public bool startTimer = false;
 
     private void Awake()
     {
@@ -45,8 +48,8 @@ public class GameTimer : MonoBehaviour
                          //  The countdown clock has finished
                         countdownText.text = "Time left : 0:00";
                         Debug.Log("het nummer is voorbij");
-                        SceneManager.LoadScene("Result");
-                }
+                        timeIsUp = true;
+                    }
                 }
             }
     }

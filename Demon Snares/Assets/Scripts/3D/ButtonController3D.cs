@@ -8,19 +8,20 @@ public class ButtonController3D : MonoBehaviour
 
     [SerializeField]
     private Material defaultMaterial;
-
     [SerializeField]
     private Material pressedMaterial;
 
-    private MeshRenderer theSR;
-
     [SerializeField]
-    private bool canBePressed;
+    private EnemyAnim animScript;
+
+    private MeshRenderer theSR;
 
     private GameObject nootObject;
 
     private GameObject hitbox;
     private ParticleSystem emitter;
+
+    private bool canBePressed;
 
     private float spamTime;
     private bool spamAvailable;
@@ -30,7 +31,7 @@ public class ButtonController3D : MonoBehaviour
     {
         theSR = GetComponent<MeshRenderer>();
         spamAvailable = true;
-        emitter = gameObject.GetComponentInChildren<ParticleSystem>();
+        emitter = gameObject.GetComponentInChildren<ParticleSystem>();      
     }
 
     // Update is called once per frame
@@ -53,6 +54,8 @@ public class ButtonController3D : MonoBehaviour
                 nootObject.SetActive(false);
 
                 canBePressed = false;
+
+                animScript.PlayAnim();
 
                 GameManager.instance.NoteHit();
                 emitter.Play();

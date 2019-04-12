@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: e188fa52d24662746aa83c6d51bb4d93
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Score1 (test).unity
     guid: f135ed355119d964ba9be36b291af7c7
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Score2 (test).unity
     guid: ab9f4eb5d75f00f45b1df864f08e5d0e
   - enabled: 0
