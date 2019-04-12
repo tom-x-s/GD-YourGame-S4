@@ -11,9 +11,6 @@ public class GameManager : MonoBehaviour
     private Stat health;
 
     [SerializeField]
-    private Animator playerAnim;
-
-    [SerializeField]
     private GameTimer time;
 
     public AudioSource theMusic;
@@ -79,18 +76,6 @@ public class GameManager : MonoBehaviour
                 theBS3D.hasStarted = true;
 
                 theMusic.Play();
-            }
-        }
-
-        if (playerAnim)
-        {
-            if (Input.GetKeyDown("a") || Input.GetKeyDown("s") || Input.GetKeyDown("d") || Input.GetKeyDown("f") || Input.GetKeyDown(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.Joystick1Button2) || Input.GetKeyDown(KeyCode.Joystick1Button0) || Input.GetKeyDown(KeyCode.Joystick1Button3))
-            {
-                playerAnim.SetBool("HittingNote", true);
-            }
-            else
-            {
-                playerAnim.SetBool("HittingNote", false);
             }
         }
     }
