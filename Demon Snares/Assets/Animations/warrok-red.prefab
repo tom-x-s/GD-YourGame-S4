@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100132, guid: be857c971d747424290fb18bdce828ed, type: 3}
       propertyPath: m_Name
-      value: warrok_w_kurniawan@Running Variant
+      value: warrok-red
       objectReference: {fileID: 0}
     - target: {fileID: 400132, guid: be857c971d747424290fb18bdce828ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -67,6 +67,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: be857c971d747424290fb18bdce828ed, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ef7a42b6b9c3f1341aafba7a547e385e, type: 2}
     - target: {fileID: 13700000, guid: be857c971d747424290fb18bdce828ed, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

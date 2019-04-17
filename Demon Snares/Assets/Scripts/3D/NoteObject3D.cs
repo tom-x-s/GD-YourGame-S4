@@ -11,7 +11,7 @@ public class NoteObject3D : MonoBehaviour
     void Update()
     {
         // check which button is pushed (for calibrating guitar hero controller)
-        /*
+        
         if (Input.anyKey)
         {
             System.Array values = System.Enum.GetValues(typeof(KeyCode));
@@ -20,6 +20,6 @@ public class NoteObject3D : MonoBehaviour
                 if (Input.GetKeyDown(code)) { print(System.Enum.GetName(typeof(KeyCode), code)); }
             }
         }
-        */  
+         
     }
 }

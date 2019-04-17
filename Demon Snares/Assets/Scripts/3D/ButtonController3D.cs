@@ -55,7 +55,10 @@ public class ButtonController3D : MonoBehaviour
 
                 canBePressed = false;
 
-                animScript.PlayAnim();
+                if (animScript)
+                {
+                    animScript.PlayAnim();
+                }
 
                 GameManager.instance.NoteHit();
                 emitter.Play();

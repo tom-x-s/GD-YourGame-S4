@@ -20,6 +20,7 @@ public class PlayerAnim : MonoBehaviour
             {
                 playerAnim.SetBool("HittingNote", false);
             }
+
         }
     }
 }
