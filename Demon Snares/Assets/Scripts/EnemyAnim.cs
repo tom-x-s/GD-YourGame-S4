@@ -17,4 +17,9 @@ public class EnemyAnim : MonoBehaviour
         gameObject.SetActive(true);
         enemyAnim.SetTrigger("Death");
     }
+
+    public void SetInactive()
+    {
+        gameObject.SetActive(false);
+    }
 }
