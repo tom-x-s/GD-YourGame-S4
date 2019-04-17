@@ -14,12 +14,14 @@ public class EnemyAnim : MonoBehaviour
 
     public void PlayAnim()
     {
+        Debug.Log("animation");
         gameObject.SetActive(true);
         enemyAnim.SetTrigger("Death");
     }
 
     public void SetInactive()
     {
+        Debug.Log("inactive");
         gameObject.SetActive(false);
     }
 }
